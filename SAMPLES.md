@@ -86,7 +86,7 @@ $paystack->page->update([
                 'description'=>'Describe at length'],['id'=>233]);
 $paystack->page->list(['perPage'=>5,'page'=>2]); // list the second page at 5 per page
 
-// page
+// Subscription
 $paystack->subscription(12);
 $paystack->subscription();
 $paystack->subscription->fetch(12);
